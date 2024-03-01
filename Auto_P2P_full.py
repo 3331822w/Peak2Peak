@@ -45,7 +45,6 @@ def add_Gau_peaks(spectrum, a, b, c):#a=10,b=40,c=0.5
         y = normalization(y)
         y = y * c1
         y_tot = y_tot + y
-    # y_tot = normalization(y_tot)#考虑是否需要额外归一化，当c=1时
     spectrum = spectrum + y_tot
     spectrum = normalization(spectrum)
     spectrum = np.array(spectrum)
