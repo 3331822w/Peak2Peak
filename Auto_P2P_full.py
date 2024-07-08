@@ -1,7 +1,6 @@
 import torch
 import torch.nn as nn
 import numpy as np
-from model.Unet import Unet
 import torch.optim as optim
 import torch
 import torch.nn as nn
@@ -16,9 +15,6 @@ import os
 import matplotlib.pyplot as plt
 from model.Simple_FCN import F_CN
 from scipy import ndimage
-from model.EfficientNetV2 import efficientnetv2_s
-from model.resnet import resnet18, resnet34, resnet50, resnet101
-from model.ALEXNET import vgg16
 from torch.nn import functional as F
 import random
 from scipy import ndimage
